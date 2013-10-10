@@ -97,4 +97,8 @@ public class JdbcCompiledStatement implements CompiledStatement {
 	boolean getMoreResults() throws SQLException {
 		return preparedStatement.getMoreResults();
 	}
+
+	public void cancelQuery() {
+		// Not implemented yet
+	}
 }
